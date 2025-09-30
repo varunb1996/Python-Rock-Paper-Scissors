@@ -69,7 +69,7 @@ def scissor():
     points()
 #Defining main window and all it's widgets 
 root=Tk()
-root.title("ProjectGurukul Rock Paper Scissor")
+root.title("Rock Paper Scissor")
 root.geometry('270x200')
 root.config(bg="sky blue")
 #text widget to display choices 
@@ -101,3 +101,4 @@ Play_again.grid(row=5,columnspan=3)
 
 
 mainloop()
+
